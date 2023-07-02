@@ -1,0 +1,9 @@
+This script utilizes the web3 library to establish a connection with the Ethereum network via Infura. We define the getAccountBalance function, which requires an Ethereum account address as an input parameter. It utilizes the web3.eth.getBalance method to retrieve the account balance, which is returned in wei. It then converts the balance to Ether using the web3.utils.fromWei method.
+
+To use the script, please provide the account address (accountAddress) for which you want to retrieve the balance.
+
+In the usage example, we call the getAccountBalance function to retrieve the balance for the specified account. The balance is then logged to the console.
+
+Please ensure that you have the necessary dependencies installed, including the web3 library. You can install it by running npm install web3.
+
+Please note that this script serves as an example and can be customized or integrated into other scripts or applications as needed.
